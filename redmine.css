@@ -1,0 +1,33 @@
+/**
+ * Стили для Redmine.
+ * Делает padding 7px 0 для задач в списке, чтобы выглядели менее кучно
+ * Добавляет background к приоритетам
+ */
+ 
+tr.issue td {
+	padding: 7px 0 !important;
+}
+
+tr.priority-3 td.priority {
+	background: #F5CEF4 !important;
+}
+
+tr.priority-4 td.priority {
+	background: #F59595 !important;
+}
+
+tr.priority-2 td.priority {
+	background: #CEF5CF !important;
+}
+
+tr.priority-1 td.priority {
+	background: #F3F5CE !important;
+}
+
+tr.issue td.priority {
+	color: black !important;
+}
+
+tr.issue td.subject {
+	padding-left: 10px !important;
+}
