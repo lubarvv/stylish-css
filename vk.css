@@ -1,0 +1,10 @@
+/*
+ * Убирает рекламу слева
+ *
+ * @url: http://vk.com
+ * @url: https://vk.com
+ */
+ 
+#left_ads {
+   display: none !important;
+}
